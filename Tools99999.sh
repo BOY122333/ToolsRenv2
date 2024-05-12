@@ -5,6 +5,15 @@
 #MikirMakeOtakGblk
 #KontolKaloMauReedit/Recode 
 
+#while ini paling atas
+while true; do
+read -p "username  : " Renepep123
+read -p "Password  :  " Renepep
+if [[ "$Renepep123" = "then" || "$Renepep" = "then" ]]; then
+
+#jika kondisi benar akan menjalankan script selanjutnya 
+#isi script/tools di bawahini
+
 sleep 1
 clear
 sleep 1

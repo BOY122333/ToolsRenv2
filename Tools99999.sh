@@ -1,5 +1,4 @@
 #Linux999
-#Debian
 #MauNgapainGblk?
 #DiRecodeGakBakalJadiinLuMastah
 #DiGantiAuthorGakBakalJadiinLuMaster

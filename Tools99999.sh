@@ -375,6 +375,11 @@ if [ $ren9999 == 24 ]
 then
 clear
 sleep 1
+git clone https://github.com/SPOKYHOZOOO/TOOLS999
+cd TOOLS999
+chmod 777 TOOLS999
+bash TOOLS999.sh
+fi
 
 if [ $ren9999 == UPDATE ]
 then

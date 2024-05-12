@@ -6,18 +6,9 @@
 #MikirMakeOtakGblk
 #KontolKaloMauReedit/Recode 
 
-#while ini paling atas
-while true; do
-read -p "username  : " Renepep123
-read -p "Password  :  " Renepep
-if [[ "$Renepep123" = "then" || "$Renepep" = "then" ]]; then
-
-#jika kondisi benar akan menjalankan script selanjutnya 
-#isi script/tools di bawahini
-
 sleep 1
 clear
-sleep 2
+sleep 1
 clear
 echo -e "  ████████╗░█████╗░░█████╗░██╗░░░░░░██████╗██████╗░███████╗███╗░░██╗"
 echo -e "  ╚══██╔══╝██╔══██╗██╔══██╗██║░░░░░██╔════╝██╔══██╗██╔════╝████╗░██║"
@@ -390,7 +381,7 @@ if [ $ren9999 == UPDATE ]
 then
 clear
 sleep 1
-git clone https://github.com/THEOYS123/ToolsRen.git
+git clone https://github.com/BOY122333/ToolsRen999.git
 cd ToolsRen
 bash ren999.sh
 fi
@@ -417,10 +408,3 @@ then
 clear
 sleep 1
 exit
-
-#else ini taroh paling bawah
-else
-echo "lu ketahuan make toolslove tanpa se izin dari pemiliknya😜😜😜
-lu ketahuan make toolslove tanpa se izin dari pemiliknya😜😜😜
-lu ketahuan make toolslove tanpa se izin dari pemiliknya😜😜😜"
-done

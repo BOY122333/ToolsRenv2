@@ -13,6 +13,7 @@ if [[ "$Renepep123" = "then" || "$Renepep" = "then" ]]; then
 
 #jika kondisi benar akan menjalankan script selanjutnya 
 #isi script/tools di bawahini
+https://github.com/BOY122333/ToolsRenv1.git
 
 sleep 1
 clear
@@ -421,3 +422,14 @@ then
 clear
 sleep 1
 exit
+
+#else ini taroh paling bawah
+else
+echo "GAK TAU PASSWORD NYA YAAA🤣🤣🤣"
+echo "GAK TAU PASSWORD NYA YAAA🤣🤣🤣"
+echo "GAK TAU PASSWORD NYA YAAA🤣🤣🤣"
+echo "GAK TAU PASSWORD NYA YAAA🤣🤣🤣"
+echo "GAK TAU PASSWORD NYA YAAA🤣🤣🤣"
+exit
+fi
+done

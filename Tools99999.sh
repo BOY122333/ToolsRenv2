@@ -35,39 +35,43 @@ echo -e "               ||7.spam otp no stop V7                  ||"
 echo -e "               ||8.spam otp no stop V8                  ||"
 echo -e "               ||9.spam otp no stop V9                  ||"
 echo -e "               ||10.spam otp no stop V10                ||"
+echo -e "               ||11.spam otp no stop V11                ||"
+echo -e "               ||12.spam otp no stop V12                ||"
+echo -e "               ||13.spam otp no stop V13                ||"
+echo -e "               ||14.spam otp no stop V14                ||"
+echo -e "               ||15.spam otp no stop V15                ||"
 echo -e "               ||=======================================||"
 echo -e "               ||         MENU PHISING & HACKING        ||"
 echo -e "               ||=======================================||"
-echo -e "               ||.HACK KAMERA                           ||"
-echo -e "               ||.HACK SOSMED                           ||"
-echo -e "               ||.HACK CCTV                             ||"
-echo -e "               ||.PANDORA BY SANZ                       ||"
-echo -e "               ||.Sploit-Malicious                      ||"
-echo -e "               ||.diejoubu                              ||"
-echo -e "               ||.Lazymux                               ||"
-echo -e "               ||.XPHISHER                              ||"
-echo -e "               ||.OSGPT                                 ||"
-echo -e "               ||.NETHUNTER M                           ||"
-echo -e "               ||.GABUT                                 ||"
-echo -e "               ||.sqlmap                                ||"
-echo -e "               ||.TOOLSINSTALLERv3                      ||"
-echo -e "               ||.Crack fb                              ||"
-echo -e "               ||.Crack ig                              ||"
-echo -e "               ||.instabot                              ||"
-echo -e "               ||.caping                                ||"
-echo -e "               ||.                                      ||"
-echo -e "               ||.                                      ||"
+echo -e "               ||16..HACK KAMERA                        ||"
+echo -e "               ||17.HACK SOSMED                         ||"
+echo -e "               ||18.HACK CCTV                           ||"
+echo -e "               ||19.PANDORA BY SANZ                     ||"
+echo -e "               ||20.Sploit-Malicious                    ||"
+echo -e "               ||21.diejoubu                            ||"
+echo -e "               ||22.Lazymux                             ||"
+echo -e "               ||23.XPHISHER                            ||"
+echo -e "               ||24.OSGPT                               ||"
+echo -e "               ||25.NETHUNTER M                         ||"
+echo -e "               ||26.GABUT                               ||"
+echo -e "               ||27.sqlmap                              ||"
+echo -e "               ||28.TOOLSINSTALLERv3                    ||"
+echo -e "               ||29.Crack fb                            ||"
+echo -e "               ||30.Crack ig                            ||"
+echo -e "               ||31.instabot                            ||"
+echo -e "               ||32.caping                              ||"
+echo -e "               ||33.Tools ABD                           ||"
+echo -e "               ||34.VBUG                                ||"
 echo -e "               ||=======================================||"
 echo -e "               ||                MENU DDOS              ||"
 echo -e "               ||=======================================||"
-echo -e "               ||.DDOS V1                               ||"
-echo -e "               ||.DDOS V2                               ||"
-echo -e "               ||.DDOS V3                               ||"
-echo -e "               ||.DDOS V4 <off>                         ||"
-echo -e "               ||.DDOS V5                               ||"
-echo -e "               ||.DDOS V6                               ||"
-echo -e "               ||.DDOS V7                               ||"
-echo -e "               ||.DDOS V8 <off>                         ||"
+echo -e "               ||35.DDOS V1                             ||"
+echo -e "               ||36.DDOS V2                             ||"
+echo -e "               ||37.DDOS V3                             ||"
+echo -e "               ||38.DDOS V4 <off>                       ||"
+echo -e "               ||39.DDOS V5                             ||"
+echo -e "               ||40.DDOS V6                             ||"
+echo -e "               ||41.DDOS V7                             ||"
 echo -e "               ||=======================================||"
 echo -e "               ||                MENU DLL               ||"
 echo -e "               ||=======================================||"
@@ -215,9 +219,62 @@ sh install.sh
 sh sdv.sh
 fi
 
+if [ $ren9999 == 11 ]
+then
+clear
+sleep 1
+python main.py
+git clone https://github.com/rickyfazaa/MySPAMBot-OTP
+cd MySPAMBot-OTP
+python main.py
+fi
 
 
-if [ $ren9999 ==  ]
+if [ $ren9999 == 12 ]
+then
+clear
+sleep 1
+pkg update && pkg upgrade
+pkg install nano
+pkg install git
+pkg install python
+git clone https://github.com/AmmarrBN/Tools-WhatsApp
+bash install.sh
+cd Tools-WhatsApp
+python main.py
+fi
+
+if [ $ren9999 == 13 ]
+then
+clear
+sleep 1
+pkg install nodejs && git
+git clone https://github.com/ibnusyawall/spam-wa
+npm i
+node index
+fi
+
+if [ $ren9999 == 14 ]
+then
+clear
+sleep 1
+git clone https://github.com/RayhanZuck/BrutalSpam
+cd BrutalSpam
+python spam.py
+fi
+
+if [ $ren9999 == 15 ]
+then
+clear
+sleep 1
+pkg install python
+pip install requestS
+git clone https://github.com/BOY122333/spamCall.git
+cd spamCall
+bash call.sh
+fi
+
+if [ $ren9999 == 16 ]
 then
 clear
 sleep 1
@@ -227,7 +284,7 @@ chmod +x webcamphish.sh
 ./webcamphish.sh
 fi
 
-if [ $ren9999 ==  ]
+if [ $ren9999 == 17 ]
 then
 clear
 sleep 1
@@ -236,7 +293,7 @@ cd zphisher
 bash zphisher.sh
 fi
 
-if [ $ren9999 ==  ]
+if [ $ren9999 == 18 ]
 then
 clear
 sleep 1
@@ -246,7 +303,7 @@ cd hackCCTV
 python3 hackcctv.py
 fi
 
-if [ $ren9999 ==  ]
+if [ $ren9999 == 19 ]
 then
 clear
 sleep 1
@@ -262,7 +319,7 @@ pip3 install -r requirements.txt
 python3 pandora.py
 fi
 
-if [ $ren9999 ==  ]
+if [ $ren9999 == 20 ]
 then
 clear
 sleep 1
@@ -275,7 +332,7 @@ pip2 install -r requirements.txt
 python2 malicious.py
 fi
 
-if [ $ren9999 ==  ]
+if [ $ren9999 == 21 ]
 then
 clear
 sleep 1
@@ -288,7 +345,7 @@ cd v1.2
 php daijobu.php
 fi
 
-if [ $ren9999 ==  ]
+if [ $ren9999 == 22 ]
 then
 clear
 sleep 1
@@ -301,7 +358,7 @@ cd Lazymux
 python lazymux.py
 fi
 
-if [ $ren9999 ==  ]
+if [ $ren9999 == 23 ]
 then
 clear
 sleep 1
@@ -310,7 +367,7 @@ cd XPHISHER
 bash xphisher.sh
 fi
 
-if [ $ren9999 ==  ]
+if [ $ren9999 == 24 ]
 then
 clear
 sleep 1
@@ -320,7 +377,7 @@ pip install -r requirements.txt
 python3 main.py
 fi
 
-if [ $ren9999 ==  ]
+if [ $ren9999 ==25 ]
 then
 clear
 sleep 1
@@ -333,7 +390,14 @@ chmod +x install-nethunter-modified
 ./install-nethunter-modified
 fi
 
-if [ $ren9999 ==  ]
+#ini bagian ddos #ini bagian ddos #ini bagian ddos #ini bagian ddos #ini bagian ddos #ini bagian ddos 
+#ini bagian ddos #ini bagian ddos #ini bagian ddos #ini bagian ddos #ini bagian ddos #ini bagian ddos 
+#ini bagian ddos #ini bagian ddos #ini bagian ddos #ini bagian ddos #ini bagian ddos #ini bagian ddos 
+#ini bagian ddos #ini bagian ddos #ini bagian ddos #ini bagian ddos #ini bagian ddos #ini bagian ddos 
+#ini bagian ddos #ini bagian ddos #ini bagian ddos #ini bagian ddos #ini bagian ddos #ini bagian ddos 
+#ini bagian ddos #ini bagian ddos #ini bagian ddos #ini bagian ddos #ini bagian ddos #ini bagian ddos 
+
+if [ $ren9999 == 35 ]
 then
 clear
 sleep 1
@@ -349,7 +413,7 @@ python3 setup.py
 python3 mc2.py    
 fi
 
-if [ $ren9999 ==  ]
+if [ $ren9999 == 36 ]
 then
 clear
 sleep 1
@@ -363,7 +427,7 @@ pip3 install -r requirements.txt
 python3 starlink.py  
 fi
 
-if [ $ren9999 ==  ]
+if [ $ren9999 == 37 ]
 then
 clear
 sleep 1
@@ -390,7 +454,7 @@ chmod 777 *
 python3 ddos.py
 fi
 
-if [ $ren9999 ==  ]
+if [ $ren9999 == 38 ]
 then
 clear
 sleep 1
@@ -403,7 +467,7 @@ python3 dx.py
 python3 dx-web.py
 fi
 
-if [ $ren9999 ==  ]
+if [ $ren9999 == 39 ]
 then
 clear
 sleep 1
@@ -413,7 +477,7 @@ pip3 install -r requirements.txt
 python3 main.py
 fi
 
-if [ $ren9999 ==  ]
+if [ $ren9999 == 40 ]
 then
 clear
 sleep 1
@@ -425,7 +489,7 @@ pip3 install -r requirements.txt
 python3 impulse.py --help
 fi
 
-if [ $ren9999 ==  ]
+if [ $ren9999 == 41 ]
 then
 clear
 sleep 1
@@ -435,7 +499,14 @@ chmod 777 TOOLS999
 bash TOOLS999.sh
 fi
 
-if [ $ren9999 ==  ]
+#ini MENU PHISING & HACKING #ini MENU PHISING & HACKING  #ini MENU PHISING & HACKING  #ini MENU PHISING & HACKING
+#ini MENU PHISING & HACKING #ini MENU PHISING & HACKING  #ini MENU PHISING & HACKING  #ini MENU PHISING & HACKING
+#ini MENU PHISING & HACKING #ini MENU PHISING & HACKING  #ini MENU PHISING & HACKING  #ini MENU PHISING & HACKING
+#ini MENU PHISING & HACKING #ini MENU PHISING & HACKING  #ini MENU PHISING & HACKING  #ini MENU PHISING & HACKING
+#ini MENU PHISING & HACKING #ini MENU PHISING & HACKING  #ini MENU PHISING & HACKING  #ini MENU PHISING & HACKING
+#ini MENU PHISING & HACKING #ini MENU PHISING & HACKING  #ini MENU PHISING & HACKING  #ini MENU PHISING & HACKING
+
+if [ $ren9999 == 26 ]
 then
 clear
 sleep 1
@@ -448,7 +519,7 @@ cd GABUT
 sh KNTL.sh
 fi
 
-if [ $ren9999 ==  ]
+if [ $ren9999 == 27 ]
 then
 clear
 sleep 1
@@ -461,7 +532,7 @@ cd sqlmap
 python2 sqlmap.py
 fi
 
-if [ $ren9999 ==  ]
+if [ $ren9999 == 28 ]
 then
 clear
 sleep 1
@@ -478,7 +549,7 @@ gem install lolcat
    sh TUANB4DUT.sh
 fi
 
-if [ $ren9999 ==  ]
+if [ $ren9999 == 29 ]
 then
 clear
 sleep 1
@@ -491,7 +562,7 @@ cd BRUTEFORCEnew
 sh new.sh 
 fi
 
-if [ $ren9999 ==  ]
+if [ $ren9999 == 30 ]
 then
 clear
 sleep 1
@@ -506,7 +577,7 @@ cd darkcurut08
 sh Moreno77.sh 
 fi
 
-if [ $ren9999 ==  ]
+if [ $ren9999 == 31 ]
 then
 clear
 sleep 1
@@ -522,7 +593,7 @@ pip2 install -r requirements.txt
 bash instabot
 fi
 
-if [ $ren9999 ==  ]
+if [ $ren9999 == 32 ]
 then
 clear
 sleep 1
@@ -534,6 +605,28 @@ pkg install git
  cd caping
 ls
 php run.php
+fi
+
+if [ $ren9999 == 33 ]
+then
+clear
+sleep 1
+    apt update && apt upgrade
+    apt install git bash sox android-tools
+    git clone https://github.com/Galirus404/ADB
+    cd ADB
+    bash adb.sh
+fi
+
+if [ $ren9999 == 34 ]
+then
+clear
+sleep 1
+apt-get update && apt-get upgrade
+apt-get install git python
+git clone https://github.com/Gameye98/vbug
+cd vbug
+python vbug.py
 fi
 
 if [ $ren9999 == UPDATE ]

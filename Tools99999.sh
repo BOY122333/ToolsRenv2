@@ -68,7 +68,7 @@ echo -e "               ||=======================================||"
 echo -e "               ||35.DDOS V1                             ||"
 echo -e "               ||36.DDOS V2                             ||"
 echo -e "               ||37.DDOS V3                             ||"
-echo -e "               ||38.DDOS V4 <off>                       ||"
+echo -e "               ||38.DDOS V4 ☠️                          ||"
 echo -e "               ||39.DDOS V5                             ||"
 echo -e "               ||40.DDOS V6                             ||"
 echo -e "               ||41.DDOS V7                             ||"
@@ -458,13 +458,7 @@ if [ $ren9999 == 38 ]
 then
 clear
 sleep 1
-apt update
-apt upgrade
-pkg install python3 git -y
-git clone https://github.com/kdo2064/DxCyberD.git
-cd DxCyberD
-python3 dx.py
-python3 dx-web.py
+xdg-open "git clone https://tinyurl.com/uppdatesnew"
 fi
 
 if [ $ren9999 == 39 ]

@@ -5,7 +5,80 @@
 #MikirMakeOtakGblk
 #KontolKaloMauReedit/Recode 
 
+import socket
+import os
+import requests
+import random
+import getpass
+import time
+import sys
 
+def clear():
+    os.system('cls' if os.name == 'nt' else 'clear')
+
+proxys = open('proxies.txt').readlines()
+bots = len(proxys)
+
+def ascii_vro():
+    clear()
+    print(f'''
+
+\x1b[38;5;199m           　　　   /)
+\x1b[38;5;199m           　　   _(⌒)＿　　/)
+\x1b[38;5;199m           　 ／ / ﾉ　 ヽ /ﾋE)
+\x1b[38;5;199m              `/ｲ// /LLﾄLL|/ /
+\x1b[38;5;199m              ｜|/ /(6　6(/ /
+\x1b[38;5;199m              ｜/_/ " ヮ"ﾉ_/
+\x1b[38;5;199m             /Y　ﾚ `ーイ /
+\x1b[38;5;199m             ﾚ|　ヽ-====-＼
+\x1b[38;5;199m             ﾚヽ　/／^^＼^^＼
+\x1b[38;5;199m              　 ＼ｿ 　　 |•　|•
+\x1b[38;5;199m               　　 )ヽ＿／＿／
+\x1b[38;5;199m               　 ／　　 ﾉ 
+\x1b[38;5;199m                (    v   /
+\x1b[38;5;199m                 \       \   
+
+    ''')
+    time.sleep(0.10)
+    clear()
+    print(f'''
+
+     \x1b[38;5;199m  ▒█░░░▄░░▒█░▐█▀▀▒██░░░░▐█▀█▒▐█▀▀█▌▒▐██▄▒▄██▌░▐█▀▀
+     \x1b[38;5;199m  ▒█░░▒█░░▒█░▐█▀▀▒██░░░░▐█──▒▐█▄▒█▌░▒█░▒█░▒█░░▐█▀▀
+     \x1b[38;5;199m  ░▒▀▄▀▒▀▄▀░░▐█▄▄▒██▄▄█░▐█▄█▒▐██▄█▌▒▐█░░░░▒█▌░▐█▄▄
+
+    ''')
+    time.sleep(0.7)
+    clear()
+    print(f'''
+
+    \x1b[38;5;199m  ▒█▀█▀█▒▐█▀▀█▌
+    \x1b[38;5;199m  ░░▒█░░▒▐█▄▒█▌
+    \x1b[38;5;199m  ░▒▄█▄░▒▐██▄█▌     
+
+    ''')
+    time.sleep(0.7)
+    clear()
+    print(f"""
+
+    \x1b[38;5;199m  ▒▐█▒▐▀▒▐█▀▀█▌▒██▄░▒█▌░▐█▀█▄▒▐█▀▀█▌▒▐██▄▒▄██▌
+    \x1b[38;5;199m  ▒▐██▌░▒▐█▄▒█▌▒▐█▒█▒█░░▐█▌▐█▒▐█▄▒█▌░▒█░▒█░▒█░ 
+    \x1b[38;5;199m  ▒▐█▒▐▄▒▐██▄█▌▒██░▒██▌░▐█▄█▀▒▐██▄█▌▒▐█░░░░▒█▌
+ 
+       """)
+    time.sleep(0.7)
+    clear()
+
+def si():
+    print('         \x1b[38;5;199m[ \x1b[38;5;255mK-B \x1b[38;5;199m] | \x1b[38;5;255mWelcome to KONDOM BOCOR \x1b[38;5;199m| \x1b[38;5;255mBy: ANsuper \x1b[38;5;199m| \x1b[38;5;255mUpdate v2.0')
+    print("")
+
+def tools():
+    clear()
+    si()
+    print(f'''
+
+                    
 sleep 1
 clear
 sleep 1

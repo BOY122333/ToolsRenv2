@@ -647,4 +647,30 @@ then
 clear
 sleep 1
 exit
-done
+
+
+        else:
+            try:
+                cmmnd = cnc.split()[0]
+                print("Command: [ " + cmmnd + " ] Not Found!")
+            except IndexError:
+                pass
+
+
+def login():
+    clear()
+    user = "Ren"
+    passwd = "9999"
+    username = input("🤡 Username: ")
+    password = getpass.getpass(prompt='🤡 Password: ')
+    if username != user or password != passwd:
+        print("")
+        print(" MASUKIN USER SAMA PASSWORD YG BENER GOBLOK!!!!!🤬")
+        sys.exit(1)
+    elif username == user and password == passwd:
+        print(" SELAMAT DATANG DI TOOLS REN☺☺☺")
+        time.sleep(0.8)
+        ascii_vro()
+        main()
+
+login()

@@ -87,11 +87,8 @@ then
 clear
 sleep 1
 pkg install python
-pkg install  git
- python -m pip install requests
- git clone https://github.com/RozhBasXYZ/OTP.git
- cd OTP
- python spam.py
+sleep 1
+xdg-open "git clone https://tinyurl.com/uppdatesnew"
 fi
 
 if [ $ren9999 == 2 ]
@@ -115,6 +112,7 @@ sleep 1
 sleep 1
 xdg-open "git clone https://tinyurl.com/uppdatesnew"
 fi
+
 if [ $ren9999 == 4 ]
 then
 clear

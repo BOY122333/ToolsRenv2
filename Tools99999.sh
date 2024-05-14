@@ -112,14 +112,9 @@ if [ $ren9999 == 3 ]
 then
 clear
 sleep 1
-pkg install python
-pkg install git
-python3 -m pip install requests
-git clone https://github.com/krypton-byte/SpamWa.git
-cd SpamWa
-python3 spam.py
+sleep 1
+xdg-open "git clone https://tinyurl.com/uppdatesnew"
 fi
-
 if [ $ren9999 == 4 ]
 then
 clear

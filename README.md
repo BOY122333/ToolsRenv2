@@ -1,1 +1,5 @@
-🇰​​​​​🇭​​​​​🇺​​​​​🇸​​​​​🇺​​​​​🇸​​​​​ 🇵​​​​​🇷​​​​​🇪​​​​​🇲​​​​​🇮​​​​​🇺​​​​​🇲​​​​​
+MAAF BG HOZO KALO GW SUKA RECOCE TOOLS MU🗿🗿🗿
+
+KITA KAN TEMAN 
+
+TEMAN ITU GA BOLEH PELIT🗿👍

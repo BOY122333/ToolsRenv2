@@ -573,7 +573,7 @@ clear
 sleep 1
 git clone https://github.com/BOY122333/ToolsRenv1.git
 cd ToolsRenv1
-bash Tools99999.sh
+bash REN.sh
 fi
 if [ $ren9999 == FOLLOW ]
 then

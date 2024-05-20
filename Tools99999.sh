@@ -1,8 +1,8 @@
 xdg-open "https://wa.me/+6289519450908?text=Bang gw Mau beli Script ToolsRenv1"
 clear
 verify_credentials() {
-local expected_username="DEVIL"
-local expected_password="999"
+local expected_username="REN"
+local expected_password="99999"
 while true; do
 read -p "Username: " username
 read -s -p "Password: " password

@@ -1,4 +1,4 @@
-xdg-open "https://wa.me/+6289519450908?text=Bang gw Mau beli Script ToolsRenv1"
+xdg-open "https://wa.me/+6289519450908?text=```Bang gw Mau beli Script ToolsRenv1```"
 clear
 verify_credentials() {
 local expected_username="REN"

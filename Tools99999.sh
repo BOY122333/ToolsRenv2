@@ -4,14 +4,14 @@ verify_credentials() {
 local expected_username="REN"
 local expected_password="99999"
 while true; do
-read -p$red "Username: " username
-read -s -p$red "Password: " password
+read -p "Username: " username
+read -s -p "Password: " password
 echo
 if [ "$username" == "$expected_username" ] && [ "$password" == "$expected_password" ]; then
 echo "Login berhasil!"
 break
 else
-echo -$red "YAAA MAMPUSSS MAKANNYA MASUKIN USERNAME SAMA PASSWORD NYA YG BENAR. "
+echo "YAAA MAMPUSSS MAKANNYA MASUKIN USERNAME SAMA PASSWORD NYA YG BENAR. "
 fi
 done
 }

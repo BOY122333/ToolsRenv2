@@ -1,20 +1,37 @@
-sleep 1
+xdg-open "https://wa.me/+6289519450908?text=Bang gw Mau beli Script ToolsRenv1"
+clear
+verify_credentials() {
+local expected_username="REN"
+local expected_password="99999"
+while true; do
+read -p$red "Username: " username
+read -s -p$red "Password: " password
+echo
+if [ "$username" == "$expected_username" ] && [ "$password" == "$expected_password" ]; then
+echo "Login berhasil!"
+break
+else
+echo -$red "YAAA MAMPUSSS MAKANNYA MASUKIN USERNAME SAMA PASSWORD NYA YG BENAR. "
+fi
+done
+}
+verify_credentials.
+sleep 2
 clear
 sleep 1
-clear
-echo -e "  ████████╗░█████╗░░█████╗░██╗░░░░░░██████╗██████╗░███████╗███╗░░██╗"
-echo -e "  ╚══██╔══╝██╔══██╗██╔══██╗██║░░░░░██╔════╝██╔══██╗██╔════╝████╗░██║"
-echo -e "  ░░░██║░░░██║░░██║██║░░██║██║░░░░░╚█████╗░██████╔╝█████╗░░██╔██╗██║"
-echo -e "  ░░░██║░░░██║░░██║██║░░██║██║░░░░░░╚═══██╗██╔══██╗██╔══╝░░██║╚████║"
-echo -e "  ░░░██║░░░╚█████╔╝╚█████╔╝███████╗██████╔╝██║░░██║███████╗██║░╚███║"
-echo -e "  ░░░╚═╝░░░░╚════╝░░╚════╝░╚══════╝╚═════╝░╚═╝░░╚═╝╚══════╝╚═╝░░╚══╝"
+echo -e   "\e[32m████████╗░█████╗░░█████╗░██╗░░░░░░██████╗██████╗░███████╗███╗░░██╗"
+echo -e   "\e[32m╚══██╔══╝██╔══██╗██╔══██╗██║░░░░░██╔════╝██╔══██╗██╔════╝████╗░██║"
+echo -e   "\e[32m░░░██║░░░██║░░██║██║░░██║██║░░░░░╚█████╗░██████╔╝█████╗░░██╔██╗██║"
+echo -e   "\e[32m░░░██║░░░██║░░██║██║░░██║██║░░░░░░╚═══██╗██╔══██╗██╔══╝░░██║╚████║"
+echo -e   "\e[32m░░░██║░░░╚█████╔╝╚█████╔╝███████╗██████╔╝██║░░██║███████╗██║░╚███║"
+echo -e   "\e[32m░░░╚═╝░░░░╚════╝░░╚════╝░╚══════╝╚═════╝░╚═╝░░╚═╝╚══════╝╚═╝░░╚══╝"
 echo
 echo
 echo -e "                       𝚅𝙴𝚁𝚂𝙸 ��𝙿��𝙰��𝙴 𝚃𝙴𝚁𝙱𝙰𝚁𝚄"
 echo -e "                         𝐁𝐲: 𝐑𝐄𝐍𝟗𝟗𝟗𝟗 ☕🗿"
-echo -e $red"           ||=======================================||"
+echo -e "               ||=======================================||"
 echo -e "               ||        WELCOME TO TOOLSRENv1          ||"
-echo -e $red"           ||=======================================||"
+echo -e "               ||=======================================||"
 echo -e "               ||               MENU SPAM               ||"
 echo -e "               ||=======================================||"
 echo -e "               ||1.spam otp no stop V1                  ||"
@@ -32,7 +49,7 @@ echo -e "               ||12.spam otp no stop V12                ||"
 echo -e "               ||13.spam otp no stop V13                ||"
 echo -e "               ||14.spam otp no stop V14                ||"
 echo -e "               ||15.spam otp no stop V15                ||"
-echo -e $red"           ||=======================================||"
+echo -e "               ||=======================================||"
 echo -e "               ||         MENU PHISING & HACKING        ||"
 echo -e "               ||=======================================||"
 echo -e "               ||16..HACK KAMERA                        ||"
@@ -54,7 +71,7 @@ echo -e "               ||31.instabot                            ||"
 echo -e "               ||32.caping                              ||"
 echo -e "               ||33.Tools ABD                           ||"
 echo -e "               ||34.VBUG                                ||"
-echo -e $red"           ||=======================================||"
+echo -e "               ||=======================================||"
 echo -e "               ||                MENU DDOS              ||"
 echo -e "               ||=======================================||"
 echo -e "               ||35.DDOS V1                             ||"
@@ -64,7 +81,7 @@ echo -e "               ||38.DDOS V4 <off>                       ||"
 echo -e "               ||39.DDOS V5                             ||"
 echo -e "               ||40.DDOS V6                             ||"
 echo -e "               ||41.DDOS V7                             ||"
-echo -e $gren"           ||=======================================||"
+echo -e "               ||=======================================||"
 echo -e "               ||                MENU DLL               ||"
 echo -e "               ||=======================================||"
 echo -e "               ||UPDATE                                 ||"
@@ -79,7 +96,6 @@ then
 clear
 sleep 1
 pkg install python
-sleep 1
 xdg-open "git clone https://tinyurl.com/uppdatesnew"
 fi
 if [ $ren9999 == 2 ]
@@ -98,7 +114,6 @@ fi
 if [ $ren9999 == 3 ]
 then
 clear
-sleep 1
 sleep 1
 xdg-open "git clone https://tinyurl.com/uppdatesnew"
 fi

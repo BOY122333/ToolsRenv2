@@ -1,8 +1,8 @@
 xdg-open "https://wa.me/+6289519450908?text=Bang gw Mau beli Script ToolsRenv1"
 clear
 verify_credentials() {
-local expected_username="REN"
-local expected_password="99999"
+local expected_username="DEVIL"
+local expected_password="999"
 while true; do
 read -p "Username: " username
 read -s -p "Password: " password
@@ -11,11 +11,11 @@ if [ "$username" == "$expected_username" ] && [ "$password" == "$expected_passwo
 echo "Login berhasil!"
 break
 else
-echo "YAAA MAMPUSSS MAKANNYA MASUKIN USERNAME SAMA PASSWORD NYA YG BENAR. "
+echo "Username atau password salah. Silakan coba lagi."
 fi
 done
 }
-verify_credentials.
+verify_credentials
 sleep 2
 clear
 sleep 1

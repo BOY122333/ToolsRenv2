@@ -86,8 +86,8 @@ echo -e "               ||                MENU DLL               ||"
 echo -e "               ||=======================================||"
 echo -e "               ||UPDATE                                 ||"
 echo -e "               ||FOLLOW                                 ||"
-echo -e "               ||LAPORKAN BUG                           ||"
-echo -e "               ||<0> EXIT                               ||"
+echo -e "               ||{ bug }                                ||"
+echo -e "               ||{0} EXIT                               ||"
 echo -e "               ||=======================================||"
 echo
 read -p "               PILIH MENU:" ren9999
@@ -584,7 +584,7 @@ echo -e " MAKASIH YANG UDAH FOLLOW AKUN TIKTOK AKU☺☺☺"
 echo -e " MAKASIH YANG UDAH FOLLOW AKUN TIKTOK AKU☺☺☺"
 echo -e " MAKASIH YANG UDAH FOLLOW AKUN TIKTOK AKU☺☺☺"
 fi
-if [ $ren9999 == LAPORKAN BUG ]
+if [ $ren9999 == bug]
 then
 clear
 sleep 1
@@ -594,4 +594,5 @@ if [ $ren9999 == 0 ]
 then
 clear
 sleep 1
+xdg-open "https://wa.me/6289519450908?text=Bang Gw Udah Dulu yaa Pake Tools Nya"
 exit

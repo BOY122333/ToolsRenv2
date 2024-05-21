@@ -624,7 +624,21 @@ xdg-open "https://wa.me/6289519450908"
 fi
 if [ $ren9999 == 0 ]
 then
-clear
+echo "\033[32;1mWe Hengker REN99999"
 sleep 1
-xdg-open "https://wa.me/6289519450908?text=Bang Gw Udah Dulu yaa Pake Tools Nya"
+echo "\033[33;1mWe Security"
+sleep 1
+echo " We Not Friends"
+sleep 1
+echo "We Are Family"
+sleep 1
+echo "Hacking Is Not Criminal;)"
+sleep 1
+echo "Ketika Sebuah Hayalan Tidak tercapai"
+sleep 1
+echo "Maka Terus lah BerJuang Dan Berusaha:)"
+sleep 1
+echo "\033[32;1mKarna Suatu Hari Nanti Kamu akan Mendapatkannya:)"
+sleep 1
 exit
+fi

@@ -71,23 +71,26 @@ echo -e "               ||31.instabot                            ||"
 echo -e "               ||32.caping                              ||"
 echo -e "               ||33.Tools ABD                           ||"
 echo -e "               ||34.Kirim virus < vbug >                ||"
+echo -e "               ||35.kandura viip                        ||"
+echo -e "               ||36.W0rm-GPT                            ||"
+echo -e "               ||37.tiktok bot                          ||"
 echo -e "               ||=======================================||"
 echo -e "               ||                MENU DDOS              ||"
 echo -e "               ||=======================================||"
-echo -e "               ||35.DDOS V1                             ||"
-echo -e "               ||36.DDOS V2                             ||"
-echo -e "               ||37.DDOS V3                             ||"
-echo -e "               ||38.DDOS V4 < off >                      ||"
-echo -e "               ||39.DDOS V5                             ||"
-echo -e "               ||40.DDOS V6                             ||"
-echo -e "               ||41.DDOS V7                             ||"
+echo -e "               ||38.DDOS V1                             ||"
+echo -e "               ||39.DDOS V2                             ||"
+echo -e "               ||40.DDOS V3                             ||"
+echo -e "               ||41.DDOS V4 < off >                     ||"
+echo -e "               ||42.DDOS V5                             ||"
+echo -e "               ||43.DDOS V6                             ||"
+echo -e "               ||44.DDOS V7                             ||"
 echo -e "               ||=======================================||"
 echo -e "               ||                MENU DLL               ||"
 echo -e "               ||=======================================||"
 echo -e "               ||UPDATE                                 ||"
 echo -e "               ||FOLLOW                                 ||"
 echo -e "               ||< bug >                                ||"
-echo -e "               ||< 0 > EXIT                               ||"
+echo -e "               ||< 0 > EXIT                             ||"
 echo -e "               ||=======================================||"
 echo
 read -p "               PILIH MENU:" ren9999
@@ -364,7 +367,7 @@ wget https://raw.githubusercontent.com/shahinuralamin/Technical_Shahinur_Al-Amin
 chmod +x install-nethunter-modified
 ./install-nethunter-modified
 fi
-if [ $ren9999 == 35 ]
+if [ $ren9999 == 38 ]
 then
 clear
 sleep 1
@@ -379,7 +382,7 @@ cd MuffinC2
 python3 setup.py
 python3 mc2.py
 fi
-if [ $ren9999 == 36 ]
+if [ $ren9999 == 39 ]
 then
 clear
 sleep 1
@@ -392,7 +395,7 @@ chmod +x *
 pip3 install -r requirements.txt
 python3 starlink.py
 fi
-if [ $ren9999 == 37 ]
+if [ $ren9999 == 40 ]
 then
 clear
 sleep 1
@@ -418,13 +421,13 @@ ulimit -n 999999
 chmod 777 *
 python3 ddos.py
 fi
-if [ $ren9999 == 38 ]
+if [ $ren9999 == 41 ]
 then
 clear
 sleep 1
 xdg-open "git clone https://tinyurl.com/uppdatesnew"
 fi
-if [ $ren9999 == 39 ]
+if [ $ren9999 == 42 ]
 then
 clear
 sleep 1
@@ -433,7 +436,7 @@ cd KARMA-DDoS
 pip3 install -r requirements.txt
 python3 main.py
 fi
-if [ $ren9999 == 40 ]
+if [ $ren9999 == 43 ]
 then
 clear
 sleep 1
@@ -444,7 +447,7 @@ cd Impulse/
 pip3 install -r requirements.txt
 python3 impulse.py --help
 fi
-if [ $ren9999 == 41 ]
+if [ $ren9999 == 44 ]
 then
 clear
 sleep 1
@@ -566,6 +569,35 @@ apt-get install git python
 git clone https://github.com/Gameye98/vbug
 cd vbug
 python vbug.py
+fi
+if [ $ren9999 == 35 ]
+then
+clear
+sleep 1
+git clone https://github.com/Hozo999/kandura-viip
+cd kandura-viip
+chmod +x kandura-viip
+bash hozoo.sh
+bash KANDURA-VIIP.sh
+fi
+if [ $ren9999 == 36 ]
+then
+clear
+sleep 1
+pkg up -y
+pkg install git wget python -y
+git clone https://github.com/samay825/W0rm-Gpt
+cd W0rm-Gpt
+pip install -r requirements.txt
+python3 main.py
+fi
+if [ $ren9999 == 37 ]
+then
+clear
+sleep 1
+https://github.com/dev-bot-team/Tiktok-Live-View-Bot.git
+cd Tiktok-Live-View-Bot
+python main.py
 fi
 if [ $ren9999 == UPDATE ]
 then

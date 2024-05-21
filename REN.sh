@@ -355,7 +355,7 @@ cd OSGPT
 pip install -r requirements.txt
 python3 main.py
 fi
-if [ $ren9999 ==25 ]
+if [ $ren9999 == 25 ]
 then
 clear
 sleep 1
@@ -616,7 +616,7 @@ echo -e " MAKASIH YANG UDAH FOLLOW AKUN TIKTOK AKU☺☺☺"
 echo -e " MAKASIH YANG UDAH FOLLOW AKUN TIKTOK AKU☺☺☺"
 echo -e " MAKASIH YANG UDAH FOLLOW AKUN TIKTOK AKU☺☺☺"
 fi
-if [ $ren9999 == bug]
+if [ $ren9999 == bug ]
 then
 clear
 sleep 1
@@ -624,7 +624,7 @@ xdg-open "https://wa.me/6289519450908"
 fi
 if [ $ren9999 == 0 ]
 then
-echo "$red      𝗛𝗘𝗡𝗚𝗞𝗘𝗥 𝗥𝗘𝗡𝟵𝟵𝟵𝟵"
+echo "          𝗛𝗘𝗡𝗚𝗞𝗘𝗥 𝗥𝗘𝗡𝟵𝟵𝟵𝟵"
 sleep 1
 echo "          Security"
 sleep 1

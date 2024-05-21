@@ -622,6 +622,7 @@ clear
 sleep 1
 xdg-open "https://wa.me/6289519450908"
 fi
+
 if [ $ren9999 == 0 ]
 then
 echo "          𝗛𝗘𝗡𝗚𝗞𝗘𝗥 𝗥𝗘𝗡𝟵𝟵𝟵𝟵"

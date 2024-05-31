@@ -9,6 +9,7 @@ read -s -p "Password: " password
 echo
 if [ "$username" == "$expected_username" ] && [ "$password" == "$expected_password" ]; then
 echo "Login berhasil"
+sl
 xdg-open "https://www.tiktok.com/@sistem9999?_t=8mE62usv4Br&_r=1"
 echo "FOLLOW AKUN GW SU🗿👍"
 echo "FOLLOW AKUN GW SU🗿👍"
@@ -30,7 +31,6 @@ echo -e " MAKASIH YANG UDAH FOLLOW AKUN TIKTOK GW YAA☺☺☺"
 echo -e " MAKASIH YANG UDAH FOLLOW AKUN TIKTOK GW YAA☺☺☺"
 echo -e " MAKASIH YANG UDAH FOLLOW AKUN TIKTOK GW YAA☺☺☺"
 echo -e " MAKASIH YANG UDAH FOLLOW AKUN TIKTOK GW YAA☺☺☺"
-sl
 clear
 break
 else

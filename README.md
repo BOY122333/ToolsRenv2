@@ -1,1 +1,3 @@
-𝐊𝐇𝐔𝐒𝐔𝐒 𝐏𝐑𝐄𝐌𝐈𝐔𝐌 ❗❗❗
+$git clone -https://github.com/BOY122333/ToolsRenv1.git
+$cd ToolsRenv1
+$bash REN.sh

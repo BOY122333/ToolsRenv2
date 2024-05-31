@@ -1,5 +1,4 @@
 pkg install sl
-sl
 clear
 verify_credentials() {
 local expected_username="REN"

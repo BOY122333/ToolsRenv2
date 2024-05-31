@@ -1,3 +1,5 @@
+#yg reqode anak kontol
+#memek lu tai ngentot
 pkg install sl
 clear
 verify_credentials() {

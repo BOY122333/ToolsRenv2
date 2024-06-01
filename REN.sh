@@ -726,7 +726,7 @@ menu baru:
 echo -e "[+]   "
 echo -e "[+]   "
 echo -e "[+]   "
-klik enter untuk kembali ke ToolsRenv2 continue
+klik enter untuk kembali ke ToolsRenv2 continue home
 bash REN.sh
 fi
 if [ $ren9999 == UPDATE ]

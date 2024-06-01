@@ -722,11 +722,11 @@ echo -e"\x1B[92m
 ░░░██║░░░╚█████╔╝╚█████╔╝███████╗██████╔╝██║░░██║███████╗██║░╚███║░░╚██╔╝░░
 ░░░╚═╝░░░░╚════╝░░╚════╝░╚══════╝╚═════╝░╚═╝░░╚═╝╚══════╝╚═╝░░╚══╝░░░╚═╝░░░
 "
-echo -e" menu baru:"
-echo -e "[+]   "
-echo -e "[+]   "
-echo -e "[+]   "
-echo -e"klik enter untuk kembali ke ToolsRenv2 continue"
+echo " menu baru:"
+echo "[+]   "
+echo "[+]   "
+echo "[+]   "
+echo "klik enter untuk kembali ke ToolsRenv2 continue"
 fi
 if [ $ren9999 == UPDATE ]
 then

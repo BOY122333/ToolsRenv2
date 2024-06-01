@@ -182,7 +182,7 @@ echo -e "\x1B[92m
 ||=======================================||
 ||UPDATE                                 ||
 ||FOLLOW                                 ||
-||< bug > laporkan bug                    ||
+||< bug > laporkan bug                   ||
 ||< 0 > EXIT                             ||
 ||< info > info update                   ||
 ||=======================================||
@@ -801,6 +801,5 @@ echo "[*] THANKS BRO👍❗❗❗"
 sleep 1
 echo "[*] TERIMAKASIH SUDAH MENGGUNAKAN TOOLS SAYA😊😊❗❗❗"
 sleep 1
-cd
 exit
 fi

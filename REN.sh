@@ -726,9 +726,9 @@ echo -e" menu baru:"
 echo -e "[+]   "
 echo -e "[+]   "
 echo -e "[+]   "
-echo -e"klik enter untuk kembali ke ToolsRenv2 continue
+echo -e"klik enter untuk kembali ke ToolsRenv2 continue"
 fi
-if continue"99 == UPDATE ]
+if [ $ren9999 == UPDATE ]
 then
 clear
 sleep 1

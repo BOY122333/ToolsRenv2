@@ -702,7 +702,7 @@ if [ $ren9999 == info ]
 then
 clear
 sleep 1
-echo -e"\x1B[92m
+echo "
 ██╗███╗░░██╗███████╗░█████╗░
 ██║████╗░██║██╔════╝██╔══██╗
 ██║██╔██╗██║█████╗░░██║░░██║
@@ -726,7 +726,7 @@ echo " menu baru:"
 echo "[+]   "
 echo "[+]   "
 echo "[+]   "
-echo "klik enter untuk kembali ke ToolsRenv2 continue"
+echo "ini adalah menu baru ToolsRenv2"
 fi
 if [ $ren9999 == UPDATE ]
 then

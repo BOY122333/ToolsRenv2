@@ -180,11 +180,11 @@ echo -e "\x1B[92m
 ||43.DDOS V6                             ||
 ||44.DDOS V7                             ||
 ||=======================================||
-||< info > info update                   ||
 ||UPDATE                                 ||
 ||FOLLOW                                 ||
-||< bug> laporkan bug                    ||
+||< bug > laporkan bug                    ||
 ||< 0 > EXIT                             ||
+||< info > info update                   ||
 ||=======================================||
 "
 echo
@@ -765,14 +765,18 @@ sleep 1
 ░░░██║░░░╚█████╔╝╚█████╔╝███████╗██████╔╝██║░░██║███████╗██║░╚███║░░╚██╔╝░░
 ░░░╚═╝░░░░╚════╝░░╚════╝░╚══════╝╚═════╝░╚═╝░░╚═╝╚══════╝╚═╝░░╚══╝░░░╚═╝░░░
 "
-menu baru:
+echo -" menu baru:"
 echo -e "[+]   "
 echo -e "[+]   "
-echo -e "[+]   echo
-=============
+echo -e "[+]   "
+sleep 2
+sleep 1
+echo -e"
+============================
 || y                      ||
 || n                      ||
-=============
+============================
+"
 echo -p"ketik y/n <y untuk mengulang ToolsRenv2> <n untuk exit dari ToolsRenv2>"
 if [ $ren9999 == y ] 
 then

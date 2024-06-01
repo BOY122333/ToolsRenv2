@@ -777,7 +777,7 @@ echo -e"
 || n                      ||
 ============================
 "
-echo -p"ketik y/n <y untuk mengulang ToolsRenv2> <n untuk exit dari ToolsRenv2>"
+read -p"ketik y/n <y untuk mengulang ToolsRenv2> <n untuk exit dari ToolsRenv2>" ren9999
 if [ $ren9999 == y ] 
 then
 clear
